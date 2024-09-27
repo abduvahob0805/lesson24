@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 1000px;
+    background-image: url("img/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10px;
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p {
+    color: white;
+}
+
+header div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn {
+    padding: 14px 30px;
+    background: #009FF5B5;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 4px 4px 0;
+    color: white;
+}
+
+h5 {
+    color: black;
+}
+
+select {
+    width: 150px;
+    height: 40px;
+    background: inherit;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #0047FF;
+    border: 11px solid gray;
+    background: #FFC611;
+    border-radius: 50px;
+    width: 604px;
+    margin: 50px auto;
+}
+
+.card {
+    width: 361px;
+    height: 420px;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+    text-align: center;
+    background-color: rgb(42, 41, 41);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px #FFC200;
+    margin-bottom: 20px;
+}
+
+.ota-card {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.info {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.ota2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ota2 p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.btn2 {
+    background: #FFC200;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+    padding: 14px 71px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-right: 320px;
+}
+
+.btn2:hover {
+    background: #535353;
+    color: white;
+}
+footer {
+    background: #f9d504;
+    padding: 30px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px
+}
